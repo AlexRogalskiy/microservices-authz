@@ -36,6 +36,12 @@
             <groupId>org.secnod.dropwizard</groupId>
             <artifactId>dropwizard-shiro</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.bendb.dropwizard</groupId>
+            <artifactId>dropwizard-redis</artifactId>
+            <version>1.2.0-0</version>
+        </dependency>
     </dependencies>
 
     <build>
