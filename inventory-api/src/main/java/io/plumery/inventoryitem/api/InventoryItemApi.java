@@ -5,7 +5,7 @@ import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import io.plumery.inventoryitem.api.resources.InventoryItemResource;
 import io.plumery.shiro.distributed.realm.ApiRealm;
-import io.plumery.shiro.distributed.realm.service.PermissionsServiceImpl;
+import io.plumery.shiro.distributed.redis.PermissionsServiceImpl;
 import org.apache.shiro.realm.Realm;
 import org.secnod.dropwizard.shiro.ShiroBundle;
 import org.secnod.dropwizard.shiro.ShiroConfiguration;

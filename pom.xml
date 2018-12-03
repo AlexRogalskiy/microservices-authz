@@ -25,6 +25,7 @@
         <module>microservices-authz-parent</module>
         <module>shiro-distributed-realm</module>
         <module>inventory-api</module>
+        <module>permission-service-redis</module>
     </modules>
 
     <build>
