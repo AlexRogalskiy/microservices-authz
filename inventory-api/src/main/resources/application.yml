@@ -1,0 +1,13 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9901
+  adminConnectors:
+    - type: http
+      port: 9801
+  gzip:
+    enabled: false
+
+shiro:
+  filterUrlPattern: "/*"
+  iniConfigs: ["classpath:shiro.ini"]

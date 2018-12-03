@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.plumery</groupId>
+        <artifactId>microservices-authz-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../microservices-authz-parent</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>inventory-api</artifactId>
+
+    <properties>
+        <mainClass>io.plumery.inventoryitem.api.InventoryItemApi</mainClass>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.plumery</groupId>
+            <artifactId>shiro-distributed-realm</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.secnod.dropwizard</groupId>
+            <artifactId>dropwizard-shiro</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+    </dependencies>
+</project>
